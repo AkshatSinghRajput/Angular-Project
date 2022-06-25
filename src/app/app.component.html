@@ -1,0 +1,71 @@
+<!-- <table border="0" style="width: 100%">
+  <tr>
+    <td rowspan="2" style="width: 35%">
+      <h1>This is Heading</h1>
+      <form [formGroup]="employeeForm" (submit)="onFormSubmit(employeeForm)">
+        <label>Eno :</label>
+        <input type="text" name="eno" formControlName="eno" />
+        <br><br><br>
+        <label>Ename :</label>
+        <input type="text" name="ename" formControlName="ename" />
+        <br><br><br>
+        <label>Esalary :</label>
+        <input type="text" name="esalary" formControlName="esalary" />
+        <br><br><br>
+        <label>City :</label>
+        <input type="text" name="city" formControlName="city" />
+        <br><br><br>
+        <label>Department : </label>
+        <select formControlName="department">
+            <option value="development">development</option>
+            <option value="admin">admin</option>
+            <option value="sales">sales</option>
+        </select>
+        <br>
+        <br />
+        <input type="submit" value="Add" />
+      </form>
+    </td>
+    <td>
+        <div>
+            Total Employees <br/>
+            <span>{{totalEmployee}}</span>
+        </div>
+        <div>
+            Development <br/>
+            <span>{{countDevelopment}}</span>
+        </div>
+        <div>
+            Admin <br/>
+            <span>{{countAdmin}}</span>
+        </div>  
+        <div>
+            Sales<br/>
+            <span>{{countSales}}</span>
+        </div>          
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <h3>Employee Records</h3>
+
+        <table style="width: 100%;" border="1">
+            <thead>
+                <th>Eno. </th>
+                <th>Eno. Name</th>
+                <th>Eno. Salary</th>
+                <th>Eno. City</th>
+                <th>Emp. Department</th>
+            </thead>
+            <tr *ngFor="let e of employees">
+                <td>{{e.eno}}</td>
+                <td>{{e.ename}}</td>
+                <td>{{e.esalary}}</td>
+                <td>{{e.city}}</td>
+                <td>{{e.department}}</td>
+            </tr>
+        </table>
+    </td>
+  </tr>
+</table> -->
+<app-hello-world [user]='user'></app-hello-world>

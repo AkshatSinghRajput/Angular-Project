@@ -3,4 +3,5 @@ export class Employee{
     ename: String;
     esalary: number;
     city : String;
+    department: String;
 }
